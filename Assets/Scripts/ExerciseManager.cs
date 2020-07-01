@@ -16,6 +16,8 @@ namespace MoveToCode {
 #if WINDOWS_UWP
             curExercisePos = 0;
 #endif
+            //read in json
+
             SetUpExerciseList();
             curExercise = exerciseList[curExercisePos];
             ToggleCurrentExercise(true);
